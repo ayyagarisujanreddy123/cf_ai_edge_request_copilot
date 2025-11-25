@@ -1,0 +1,13 @@
+name = "cf-ai-edge-request-copilot"
+main = "src/worker.js"
+compatibility_date = "2025-11-25"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "CHAT_HISTORY"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[assets]
+directory = "./public"
