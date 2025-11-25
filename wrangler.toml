@@ -1,4 +1,4 @@
-name = "cf-ai-edge-request-copilot"
+name = "aipoweredapplication2"
 main = "src/worker.js"
 compatibility_date = "2025-11-25"
 
