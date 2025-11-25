@@ -1,4 +1,4 @@
-name = "aipoweredapplication2"
+name = "aipoweredapplication3"
 main = "src/worker.js"
 compatibility_date = "2025-11-25"
 
