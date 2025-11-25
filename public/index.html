@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare AI Request Copilot</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔧 Cloudflare AI Request Copilot</h1>
+            <p>Paste HTTP logs, curl commands, or describe your issue. Get instant Cloudflare config suggestions!</p>
+        </header>
+        
+        <div id="chat-container">
+            <div id="messages"></div>
+        </div>
+        
+        <div class="input-area">
+            <textarea id="message-input" placeholder="Paste your HTTP request log, curl command, or describe your issue..." rows="4"></textarea>
+            <button id="send-button" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>
